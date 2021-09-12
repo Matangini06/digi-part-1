@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  overflow-x: hidden;
+}
+.image-container{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#first-section{
+  background-image: url("Artboard 12.png");
+}
+#second-section{
+  background-image: url("Artboard 14.png");
+}
+#third-section{
+  background-image: url("Artboard 13.png");
+}
+#fourth-section{
+  background-image: url("Artboard 15.png");
+}
+
+/* form styling */
+.div-container{
+  margin: 0 25%;
+  padding: 10px 0 20px 0;
+}
+.div-container h1{
+  text-align: center;
+  padding: 10px 0;
+  color: #586169;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 500;
+}
+form{
+  background-color: yellow;
+  padding: 40px 20px;
+  border-radius: 5px;
+}
+label{
+  display: block;
+  font-size: 20px;
+  padding: 10px 0 5px 0;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
+input{
+  display: block;
+  width: 100%;
+  padding: 7px 5px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  border:none;
+  background-color: rgb(255, 255, 255);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 300;
+}
+input:focus{
+  border: 3px solid rgb(126, 124, 124);
+  transition: 0.2s;
+}
+textarea{
+  width: 100%;
+  max-width: 100%;
+  height: 150px;
+  max-height: 150px; 
+  outline: none;
+  border-radius: 5px;
+  resize: none;
+  padding: 7px 5px;
+  font-size: 16px;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 300;
+}
+textarea:focus{
+  border: 3px solid rgb(126, 124, 124);
+  transition: 0.2s;
+}
+#submit-button{
+  outline: none;
+  border: none;
+  background-color: #413EF7;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 400;
+}
+
+
+/* for smartphones */
+@media screen and (max-width: 480px) {
+    .image-container{
+      height: 90vh;
+    }
+    #first-section{
+      background-image: url("Artboard 12.png");
+    }
+    #second-section{
+      background-image: url("Artboard 14.png");
+    }
+    #third-section{
+      background-image: url("Artboard 13.png");
+    }
+    #fourth-section{
+      background-image: url("Artboard 15.png");
+    }
+}
+/* for tablet landscape */
+@media screen and (max-width: 1024px){
+  .image-container{
+    height: 90vh;
+  }
+  #first-section{
+    background-image: url("Artboard 12.png");
+  }
+  #second-section{
+    background-image: url("Artboard 14.png");
+  }
+  #second-section{
+    display: none;
+  }
+  #third-section{
+    background-image: url("Artboard 13.png");
+  }
+  #fourth-section{
+    background-image: url("Artboard 15.png");
+  }
+}
+/* for tablet portrait mode */
+@media screen and (max-width: 768px){
+  .image-container{
+    height: 90vh;
+  }
+  #first-section{
+    background-image: url("Artboard 12.png");
+  }
+  #second-section{
+    background-image: url("Artboard 13.png");
+  }
+  #third-section{
+    background-image: url("Artboard 14.png");
+  }
+  #fourth-section{
+    background-image: url("Artboard 15.png");
+  }
+
+  /* for form */
+  .div-container{
+    margin: 0 2%;
+  }
+}
+
+
